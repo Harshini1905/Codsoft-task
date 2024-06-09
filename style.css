@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#quiz h2, #welcome-container h1, #welcome-container h2 {
+    margin-bottom: 20px;
+}
+
+.options, .domain-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option, .domain {
+    background: #ff00bb;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.option:hover, .domain:hover {
+    background: #0056b3;
+}
+
+#result h2 {
+    margin-top: 20px;
+}
