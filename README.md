@@ -1,0 +1,1 @@
+Creating a simple online quiz game using HTML, CSS, and JavaScript involves structuring the quiz questions, designing the interface, and implementing the logic to handle user responses. Here’s a basic example to get you started.
